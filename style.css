@@ -14,6 +14,10 @@ body {
   text-align: center;
   margin-top: 50px;
   color: #caf0f8;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .card {
   width: 90%;
@@ -54,6 +58,9 @@ body {
 .search button img {
   width: 18px;
 }
+.search button:active {
+  opacity: 70%;
+}
 .weather-icon {
   width: 170px;
   margin-top: 30px;
@@ -88,4 +95,13 @@ body {
   font-size: 25px;
   margin-top: -5px;
   margin-bottom: 5px;
+}
+.weather {
+  display: none;
+}
+.error {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
